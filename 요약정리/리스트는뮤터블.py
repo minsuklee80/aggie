@@ -9,14 +9,9 @@ pow(...)
 
     Return x**y (x to the power of y).
 
->>> math.pow(x, y)
-Traceback (most recent call last):
-  File "<pyshell#3>", line 1, in <module>
-    math.pow(x, y)
-NameError: name 'x' is not defined
+>>> #내장된 도움말을 참조하는 게 가장 좋음
 >>> math.pow(3, 4)
 81.0
->>> #내장된 도움말을 참조하는 게 가장 좋음
 >>> la = [18, 10, 9]
 >>> 50 in la
 False
