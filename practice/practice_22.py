@@ -1,22 +1,4 @@
->>> #x(1~10)의 제곱근을 리턴한다.
->>> [x*x for x in range(1,11)]
-[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
->>> #x(1~10)의 제곱근 중 2의 배수를 리턴한다.
->>> [x*x for x in range(1,11) if not(x*x%2)]
-[4, 16, 36, 64, 100]
->>> #x(1~10)중 2의 배수를 리턴한다.
->>> [x for x in range(1,11) if not(x*x%2)]
-[2, 4, 6, 8, 10]
->>> for x in range(1,11):
-	x = x*x
-	if not(x%2 == 1):
-	    print(x)
 
-4
-16
-36
-64
-100
 
 
 
@@ -26,7 +8,7 @@ Traceback (most recent call last):
   File "D:/다프수업_백업용/20170322_수업실습.py", line 2, in <module>
     for x in gange(1,11):
 NameError: name 'gange' is not defined
->>> 
+>>>
 ========= RESTART: D:/다프수업_백업용/20170322_수업실습.py =========
 [4, 16, 36, 64, 100]
 >>> import random
