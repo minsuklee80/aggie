@@ -3,29 +3,6 @@ Type "copyright", "credits" or "license()" for more information.
 >>> #2017년 4월 24일 월요일 1:30~
 >>> help("return")
 The "return" statement
-**********************
-
-   return_stmt ::= "return" [expression_list]
-
-"return" may only occur syntactically nested in a function definition,
-not within a nested class definition.
-
-If an expression list is present, it is evaluated, else "None" is
-substituted.
-
-"return" leaves the current function call with the expression list (or
-"None") as return value.
-
-When "return" passes control out of a "try" statement with a "finally"
-clause, that "finally" clause is executed before really leaving the
-function.
-
-In a generator function, the "return" statement indicates that the
-generator is done and will cause "StopIteration" to be raised. The
-returned value (if any) is used as an argument to construct
-"StopIteration" and becomes the "StopIteration.value" attribute.
-
-Related help topics: FUNCTIONS
 
 >>> def greet():
 	'''greets all of you.'''
@@ -89,7 +66,7 @@ TypeError: greet() missing 1 required positional argument: 'name'
 Hello! 10
 >>> implicit explicit
 SyntaxError: invalid syntax
->>> 
+>>>
 >>> def d(x,y):
 	return x+y
 
@@ -153,4 +130,4 @@ Traceback (most recent call last):
 NameError: name 'b' is not defined
 >>> d
 <function d at 0x03BD7AE0>
->>> 
+>>>
