@@ -181,38 +181,6 @@ u: 1개
 e: 2개
 i: 1개
 u: 1개
-Traceback (most recent call last):
-  File "D:/다프수업/20170125_문자열실습-2.py", line 24, in <module>
-    print("없는 알파뱃은: %d 이네요." %noletters)
-TypeError: %d format: a number is required, not str
->>>
-========== RESTART: D:/다프수업/20170125_문자열실습-2.py ==========
-이름: lee min suk
-e: 2개
-i: 1개
-u: 1개
-이름에 없는 알파벳은: abcdfghjopqrtvwxyz 이네요.
->>>
-========== RESTART: D:/다프수업/20170125_문자열실습-2.py ==========
-이름: lee min suk
-e: 2개
-i: 1개
-u: 1개
-Traceback (most recent call last):
-  File "D:/다프수업/20170125_문자열실습-2.py", line 21, in <module>
-    if name.find(letters[i]) == -1:
-NameError: name 'letters' is not defined
->>>
-========== RESTART: D:/다프수업/20170125_문자열실습-2.py ==========
-이름: lee min suk
-e: 2개
-i: 1개
-u: 1개
-Traceback (most recent call last):
-  File "D:/다프수업/20170125_문자열실습-2.py", line 21, in <module>
-    if name.find(letters[i]) == -1:
-NameError: name 'letters' is not defined
->>>
 ========== RESTART: D:/다프수업/20170125_문자열실습-2.py ==========
 이름: lee min suk
 e: 2개

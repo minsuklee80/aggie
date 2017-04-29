@@ -75,7 +75,6 @@ b
 >>> a="abc"
 >>> list(a)
 ['a', 'b', 'c']
-
 >>> tuple(a)
 ('a', 'b', 'c')
 >>> set(a)
