@@ -13,6 +13,7 @@ if len(lotto_mynum) == 5:
     mynum = input("로또 번호를 하나 더 입력하세요: ")
     lotto_mynum.append(mynum)
     
+<<<<<<< HEAD
 print("당신이 선택한 번호는\n%d 입니다." %set(lotto_mynum))
 
 lotto = set(range(1,46))                     #로또 전체 번호
@@ -34,5 +35,16 @@ elif lotto_num1 == 4:
     print("축하합니다. 4등에 당첨되었습니다./n")
 else:
     print("꽝")
+=======
+print(input("당신이 선택한 번호는 %s 입니다. " %set(lotto_mynum)))
+lotto_mynum1 = set(lotto_mynum)
+lotto_num_a = len(lotto_num1 & lotto_mynum1)
+lotto_num_b = len(lotto_num2 & lotto_mynum2)
+
+if lotto_num_a == 6:
+    print("축하합니다. 1등에 당첨되셨습니다.")
+elif (lotto_num_a == 5) and (lotto_num_b == 1):
+    print("축하합니다. 2등에 당첨되셨습니다.")
+>>>>>>> origin/master
 
 
