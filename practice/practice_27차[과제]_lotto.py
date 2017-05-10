@@ -17,11 +17,12 @@ for i in range(1,7):
 print(input("당신이 선택한 번호는 %s 입니다. " %set(lotto_mynum)))
 lotto_mynum1 = set(lotto_mynum)
 lotto_num_a = len(lotto_num1 & lotto_mynum1)
+lotto_num_b = len(lotto_num2 & lotto_mynum2)
 
 if lotto_num_a == 6:
-    print("1등")
-elif lotto_num_a == 5:
-    print("2등")
+    print("축하합니다. 1등에 당첨되셨습니다.")
+elif (lotto_num_a == 5) and (lotto_num_b == 1):
+    print("축하합니다. 2등에 당첨되셨습니다.")
 
     
 
