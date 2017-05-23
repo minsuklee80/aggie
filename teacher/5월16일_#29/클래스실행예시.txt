@@ -1,0 +1,33 @@
+
+>>> paju = DropDeadTastyKnifeNoodle() # paju라는 인스턴스가 생성되었다.
+>>> paju.ad()
+최고의 맛을 선사하는 맛짱칼국수! 바로 주문: 0000-0000
+>>> paju.recipe(3)
+칼국수 3인분
+>>> paju.event()
+맛짱칼국수! 드디어 우리동네에도 상륙!
+오늘 하루만 칼국수 1+1
+칼국수 1인분
+>>> hongdae = DropDeadTastyKnifeNoodle()
+>>> hongdae.ad()
+최고의 맛을 선사하는 맛짱칼국수! 바로 주문: 0000-0000
+>>> hongdae.recipe(5)
+칼국수 5인분
+>>> hongdae.event()
+맛짱칼국수! 드디어 우리동네에도 상륙!
+오늘 하루만 칼국수 1+1
+칼국수 1인분
+>>> paju.menu = ["칼국수", "냉면"] # paju 인스턴스만의 변수
+>>> paju.menu[0]
+'칼국수'
+>>> paju.menu[1]
+'냉면'
+>>> hongdae.menu # hongdae 인스턴스에는 없는 변수
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    hongdae.menu
+AttributeError: 'DropDeadTastyKnifeNoodle' object has no attribute 'menu'
+>>> hongdae.phrase = "전단지 광고"
+>>> hongdae.ad()
+전단지 광고
+>>>
